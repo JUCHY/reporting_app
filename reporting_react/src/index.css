@@ -1,0 +1,104 @@
+*{
+  background-color: F5F5F5;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.place-holder1{
+  border: 1px solid rgb(0,0,0);
+  padding: 5rem;
+  margin: 1rem;
+}
+
+.place-holder2{
+  border: 1px solid rgb(0,0,0);
+  margin: 1rem;
+  padding: 20%;
+}
+
+.place-holder3{
+  border: 1px solid rgb(0,0,0);
+  margin: 1rem;
+  padding: 10%;
+  height: 10rem;
+}
+
+.infocards{
+  display: flex;
+  flex-direction: row;
+  flex: 25%;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.graph{
+  width: 100%;
+  margin: auto;
+}
+
+.graphs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.graphs>div{
+  flex: 0 50%;
+}
+
+.column-charts{
+  display: flex;
+  flex-direction: row;
+  flex: 25%;
+  flex: 1;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.center-text{
+  top: 0;
+  bottom: 0;
+
+}
+
+.center-text2{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25vh;   
+}
+
+.text-left{
+  float: left;
+
+}
+
+.text-right{
+  float: right;
+
+}
+
+.infocard{
+  margin: 1rem;
+
+}
