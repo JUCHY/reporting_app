@@ -1,7 +1,7 @@
 const myHeaders = new Headers();
 
 //insert API URL here
-const myRequest = new Request('http://pos.yenni.cloud/Playground/GetAllTransactions', {
+const myRequest = new Request('', {
   method: 'GET',
   headers: myHeaders,
    mode: 'cors',

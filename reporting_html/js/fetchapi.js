@@ -2,7 +2,8 @@ define(function(require){
 
   const myHeaders = new Headers();
 
-  const myRequest = new Request('http://pos.yenni.cloud/Playground/GetAllTransactions', {
+  //insert API here
+  const myRequest = new Request('', {
     method: 'GET',
     headers: myHeaders,
     mode: 'cors',
